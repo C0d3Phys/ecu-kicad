@@ -794,131 +794,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 93.98 43.18)
@@ -1042,6 +917,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 38.1) (xy 120.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873f89d3-1729-458b-a2bb-a12a306cb40c")
+	)
+	(wire
+		(pts
 			(xy 93.98 43.18) (xy 113.03 43.18)
 		)
 		(stroke
@@ -1092,7 +977,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 39.37) (xy 123.19 43.18)
+			(xy 123.19 38.1) (xy 123.19 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1141,6 +1026,17 @@
 			(justify left)
 		)
 		(uuid "3db21b93-7ae6-4fec-a8fd-97a6a286f4ca")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 120.65 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4749c8d-5f44-454a-b14a-c1d0c490d5e5")
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
@@ -1407,131 +1303,6 @@
 				)
 				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/df760b5e-b648-4a6a-9551-94014ac70c31"
 					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 123.19 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5735db47-252d-4bbc-a045-4ba4dec443f9")
-		(property "Reference" "#PWR0101"
-			(at 123.19 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 123.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d948bc4-9fb0-4f3b-ad8e-1866c885b9ea")
-		)
-		(instances
-			(project "Ecu"
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/028f0b1a-68aa-4c64-b2e2-eb25296278ed"
-					(reference "#PWR020")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/09c3bd5b-713b-4b99-8447-787d0eeb2502"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/213ba770-bdd5-4bb9-88f8-a2d28d663549"
-					(reference "#PWR019")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/34b488b3-b8b1-4d7c-a66e-a6064086e74f"
-					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/3a4c7325-3aa7-47de-b495-75210654cacb"
-					(reference "#PWR022")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/3d564a10-b0a1-4dde-a98c-c2ef67c4526a"
-					(reference "#PWR03")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/5e64c5df-19f9-490c-a3aa-cd876f745353"
-					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/7dc4df00-ef54-4c82-8bf0-ac0b1988fde0"
-					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/7f24b6c2-2a0e-4638-9f89-536e26bf543d"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/82a5b8db-f80a-4d27-b6dc-bec914ad624f"
-					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/a7e6400a-9f2f-49d8-8472-a157656f1a40"
-					(reference "#PWR018")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/b5d223d4-5359-4512-8b76-09bcf12e1558"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/be4486e9-e791-4b56-b7a0-e57058418ff1"
-					(reference "#PWR021")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/cb275ea6-21d8-4fb2-97b2-7dfcc14b8113"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/ccb6743f-22ff-4267-8ac5-793811c6edd2"
-					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/df760b5e-b648-4a6a-9551-94014ac70c31"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
