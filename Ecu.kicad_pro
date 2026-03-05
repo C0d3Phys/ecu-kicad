@@ -639,96 +639,24 @@
       "Root"
     ],
     [
-      "09c3bd5b-713b-4b99-8447-787d0eeb2502",
-      "CINY"
+      "92f31fea-148d-4871-982b-48a130c9ec2c",
+      "Diode bridge"
     ],
     [
-      "34b488b3-b8b1-4d7c-a66e-a6064086e74f",
-      "CINY1"
-    ],
-    [
-      "3d564a10-b0a1-4dde-a98c-c2ef67c4526a",
-      "CINY2"
-    ],
-    [
-      "ccb6743f-22ff-4267-8ac5-793811c6edd2",
-      "CINY3"
-    ],
-    [
-      "5e64c5df-19f9-490c-a3aa-cd876f745353",
-      "CINY4"
-    ],
-    [
-      "7f24b6c2-2a0e-4638-9f89-536e26bf543d",
-      "CINY5"
-    ],
-    [
-      "7dc4df00-ef54-4c82-8bf0-ac0b1988fde0",
-      "CINY6"
-    ],
-    [
-      "82a5b8db-f80a-4d27-b6dc-bec914ad624f",
-      "CINY7"
-    ],
-    [
-      "5875475c-41d9-4569-a0bd-40ef2b754df4",
-      "SIM"
-    ],
-    [
-      "1d48189e-f82f-46c2-ab12-d95661aa16cc",
-      "SIM1"
-    ],
-    [
-      "09827d41-bc05-4b52-aa53-b47c66e81042",
-      "SIM2"
-    ],
-    [
-      "1e064f37-7c9b-4368-9956-5a66bd958fc1",
-      "SIM3"
-    ],
-    [
-      "9afcdb15-7384-43bf-b426-50def0567352",
-      "SIM4"
-    ],
-    [
-      "5e83312d-ee0c-4c56-ad21-a6f5e0f3d810",
-      "SIM5"
-    ],
-    [
-      "a7e6400a-9f2f-49d8-8472-a157656f1a40",
-      "CINY8"
-    ],
-    [
-      "213ba770-bdd5-4bb9-88f8-a2d28d663549",
-      "CINY9"
-    ],
-    [
-      "028f0b1a-68aa-4c64-b2e2-eb25296278ed",
-      "CINY10"
-    ],
-    [
-      "be4486e9-e791-4b56-b7a0-e57058418ff1",
-      "CINY11"
-    ],
-    [
-      "3a4c7325-3aa7-47de-b495-75210654cacb",
-      "CINY12"
-    ],
-    [
-      "df760b5e-b648-4a6a-9551-94014ac70c31",
-      "CINY13"
-    ],
-    [
-      "cb275ea6-21d8-4fb2-97b2-7dfcc14b8113",
-      "CINY14"
-    ],
-    [
-      "b5d223d4-5359-4512-8b76-09bcf12e1558",
-      "CINY15"
+      "cace9a29-91cc-486f-8b07-c11a20b05b8c",
+      "Led Indicator"
     ],
     [
       "947ca78a-d82d-42f0-b91e-0681d89f1af6",
       "Trace Curve"
+    ],
+    [
+      "bb73e633-858f-40c8-b206-4dcb1504dbb1",
+      "Relay indicator"
+    ],
+    [
+      "6f9c8556-2204-4993-a002-1dd36323d11d",
+      "Voltage simulator"
     ]
   ],
   "text_variables": {}
