@@ -545,6 +545,12 @@
 					(unit 1)
 				)
 			)
+			(project "Ecu"
+				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/cace9a29-91cc-486f-8b07-c11a20b05b8c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -624,6 +630,12 @@
 					(unit 1)
 				)
 			)
+			(project "Ecu"
+				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/cace9a29-91cc-486f-8b07-c11a20b05b8c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -699,6 +711,12 @@
 		(instances
 			(project "led_indicator"
 				(path "/7017cd1a-86e3-403d-bde3-eeaffb03a993"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "Ecu"
+				(path "/c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c/cace9a29-91cc-486f-8b07-c11a20b05b8c"
 					(reference "D?")
 					(unit 1)
 				)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c4cd18fd-e378-4fd5-a92c-c83bb44c2a2c")
-	(paper "A0")
+	(paper "USLegal")
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_MountingPin"
 			(pin_names
